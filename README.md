@@ -11,8 +11,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
-<!-- * [Dia 02 - Loader animado](#id02)
-* [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
+* [Dia 02 - Loader animado](#id02)
+<!-- * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
@@ -42,6 +42,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 30 - Fogos de artificio](#id30) -->
 
 
+
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 ![Dia 01](./src/Desafios/assets/Dia1.gif)
 
@@ -60,6 +61,23 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *Opacidade / transparência do CSS
 * *hover
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+
+
+##  Desafio dia 02 - Loader animado <a name="id02"></a>
+![Dia 02](./src/Desafios/assets/Dia2.gif)
+
+
+[Meu código]()
+
+[Post LinkedIn]()
+
+##### O que eu aprendi
+
+* *Transform
+* *Position
+* *Layout
+* *[animations](https://www.google.com/search?q=anima%C3%A7%C3%A3o+em+css&sxsrf=AB5stBgUY_Y2hWrbspmAvw_WHOc9VVBkNg%3A1690307265699&ei=wQrAZJGmKv7t1sQPoc6x4AU&oq=nima%C3%A7%C3%A3o+em+css&gs_lp=Egxnd3Mtd2l6LXNlcnAiEG5pbWHDp8OjbyBlbSBjc3MqAggAMgcQABgNGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSKY_UABY2DJwAHgBkAEAmAGBAqABxhqqAQYwLjUuMTG4AQHIAQD4AQHCAgcQABiKBRhDwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICCBAuGIAEGLEDwgIFEAAYgATCAgsQLhiABBjHARivAcICBRAuGIAEwgIHEAAYgAQYCsICBhAAGAcYHsICCxAAGAcYHhjxBBgKwgIHEC4YgAQYCsICBxAjGLECGCfCAgoQABiABBixAxgKwgINEAAYgAQYsQMYgwEYCsICBxAjGLACGCfCAgcQLhgNGIAEwgIMEAAYDRiABBhGGP8BwgIGEAAYHhgNwgIIEAAYHhgNGA_CAggQABgIGB4YDeIDBBgAIEGIBgE&sclient=gws-wiz-serp)*
 
 
 

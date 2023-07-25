@@ -9,6 +9,7 @@ function Home() {
     <header className="App-header">
       <h1>30 dias de CSS</h1>
       <Link to='/dia1'><button>Dia 1</button></Link>
+      <Link to='/dia2'><button>Dia 2</button></Link>
     </header >
 
   );
