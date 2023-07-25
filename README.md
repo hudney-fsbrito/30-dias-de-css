@@ -47,9 +47,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 ![Dia 01](./src/Desafios/assets/Dia1.gif)
 
 
-[Meu codigo]()
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia1)
 
-[Post LinkedIn]() 
+[Post LinkedIn](https://www.linkedin.com/posts/hudneyfernandes-dev_30diasdecss-activity-7089433458166370304--Odz?utm_source=share&utm_medium=member_desktop) 
 
 
 ##### O que eu aprendi
