@@ -68,9 +68,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 ![Dia 02](./src/Desafios/assets/Dia2.gif)
 
 
-[Meu código]()
+[Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia2)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7089673452965535744/)
 
 ##### O que eu aprendi
 
