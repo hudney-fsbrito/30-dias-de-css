@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+## 🚀 30diasDeCSS 🚀
+ 
+ Oi Pessoal e então, beleza? 😁
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Tembém vou participar desse desafio!
 
-## Available Scripts
+ 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3.
 
-In the project directory, you can run:
+Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉 [30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS/tree/master) 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Dia 01 - Ícone de mídia social em camadas](#id01)
+<!-- * [Dia 02 - Loader animado](#id02)
+* [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
+* [Dia 04 - Botão com efeito](#id04)
+* [Dia 05 - Efeito pulsar](#id05)
+* [Dia 06 - Efeito lightning text](#id06)
+* [Dia 07 - Preloader animado](#id07)  
+* [Dia 08 - Coração batendo](#id08)
+* [Dia 09 - Pendulo de Newton](#id09)
+* [Dia 10 - Animação texto alternando](#id10)
+* [Dia 11 - Botão com efeito hover](#id11)
+* [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
+* [Dia 13 - Loading com efeito](#id13)
+* [Dia 14 - Fundo de texto animado](#id14)
+* [Dia 15 - Texto flutuante](#id15)
+* [Dia 16 - Botão com efeito](#id16)
+* [Dia 17 - Loader animado](#id17)
+* [Dia 18 - Texto esfumaçado](#id18)
+* [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
+* [Dia 20 - Botão com efeito](#id20)
+* [Dia 21 - Esferas quicando](#id21)
+* [Dia 22 - Icones com efeito](#id22)
+* [Dia 23 - Botão com efeito hover](#id23)
+* [Dia 24 - Preloader animado](#id24)
+* [Dia 25 - Checkbox animado](#id25)
+* [Dia 26 - Loading com efeito](#id26)
+* [Dia 27 - Efeito pulsar](#id27)
+* [Dia 28 - Cor do background mudando](#id28)
+* [Dia 29 - Menu responsivo com Media Queries](#id29)
+* [Dia 30 - Fogos de artificio](#id30) -->
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
+![Dia 01](./src/Desafios/assets/Dia1.gif)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Meu codigo]()
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Post LinkedIn]() 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##### O que eu aprendi
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* *Criar camadas e posicionar utilizando a tag `<span>`*
+* *Transform
+* *Transitions CSS
+* *Opacidade / transparência do CSS
+* *hover
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
