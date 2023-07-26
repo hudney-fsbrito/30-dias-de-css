@@ -1,0 +1,50 @@
+@keyframes scrolling {
+  
+  from {
+    right: -800px;
+  }
+  to {
+    right: 800px;
+  }
+
+}
+
+.div{
+  background-color: #505050;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container{
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  
+}
+.content{
+  font-size: 100px;
+  position: absolute;
+  /* animation: scrolling 10s linear ease-in-out infinite; */
+  color: white;
+  animation-name: scrolling;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  mix-blend-mode: difference;
+}
+.colorOne{
+  background-color: yellow;
+  width: 50%;
+  height: 100%;
+}
+.colorTwo{
+  background-color: rgb(8, 58, 196);
+  width: 50%;
+  height: 100%;
+
+}

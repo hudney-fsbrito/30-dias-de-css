@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 import styleHome from './Home.module.css'
 import imageHomeDia1 from "../../assets/Dia1.gif"
 import imageHomeDia2 from "../../assets/Dia2.gif"
+import imageHomeDia3 from "../../assets/Dia2.gif"
 
 function Home() {
-  const images = [imageHomeDia1, imageHomeDia2]
+  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3]
 
   return (
 

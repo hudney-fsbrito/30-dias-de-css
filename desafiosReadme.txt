@@ -19,7 +19,7 @@
 <img src="Desafios/dia 03/gif/dia03.gif">
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2003)
+[Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia3)
 
 [Tutorial Medium]() *Ainda não disponivel*
 

@@ -12,8 +12,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
 * [Dia 02 - Loader animado](#id02)
-<!-- * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
-* [Dia 04 - Botão com efeito](#id04)
+* [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
+<!-- * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
@@ -81,3 +81,17 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 
+##  Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
+![Dia 03](./src/Desafios/assets/Dia2.gif)
+
+
+[Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia3)
+
+[Post LinkedIn]()
+
+##### O que eu aprendi/revi
+
+
+* *Overflow
+* *[blend-mode](https://developer.mozilla.org/pt-BR/docs/Web/CSS/blend-mode)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
