@@ -22,7 +22,7 @@ li{
   transform: rotateX(50deg) rotate(-20deg);
   
 }
-img{
+.image{
   position: absolute;
   border: 3px solid #2237E6;
   border-radius: 50%;
