@@ -82,12 +82,12 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 ##  Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
-![Dia 03](./src/Desafios/assets/Dia2.gif)
+![Dia 03](./src/Desafios/assets/Dia3.gif)
 
 
 [Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia3)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7090026339029688320/)
 
 ##### O que eu aprendi/revi
 
