@@ -13,8 +13,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
 * [Dia 02 - Loader animado](#id02)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
-<!-- * [Dia 04 - Botão com efeito](#id04)
-* [Dia 05 - Efeito pulsar](#id05)
+* [Dia 04 - Botão com efeito](#id04)
+<!-- * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
@@ -103,7 +103,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 [Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia3)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7090367202268184576/)
 
 ##### O que eu aprendi
 
