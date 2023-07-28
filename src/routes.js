@@ -4,6 +4,7 @@ import IconeSocial from "./Desafios/pages/Dia1/index";
 import Loading from "./Desafios/pages/Dia2";
 import AlteraCorTexto from "./Desafios/pages/Dia3";
 import BtnEfeito from "./Desafios/pages/Dia4";
+import Pulse from "./Desafios/pages/Dia5";
 
 function AppRoutes() {
 
@@ -15,6 +16,7 @@ function AppRoutes() {
         <Route path="/dia2" element={<Loading></Loading>}></Route>
         <Route path="/dia3" element={<AlteraCorTexto></AlteraCorTexto>}></Route>
         <Route path="/dia4" element={<BtnEfeito></BtnEfeito>}></Route>
+        <Route path="/dia5" element={<Pulse></Pulse>}></Route>
       </Routes>
     </BrowserRouter>
   )
