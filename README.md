@@ -14,8 +14,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 02 - Loader animado](#id02)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 * [Dia 04 - Botão com efeito](#id04)
-<!-- * [Dia 05 - Efeito pulsar](#id05)
-* [Dia 06 - Efeito lightning text](#id06)
+* [Dia 05 - Efeito pulsar](#id05)
+<!-- * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
@@ -120,7 +120,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 [Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia5)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/hudneyfernandes-dev_30diasdecss-frontend-react-activity-7090715689300189184-kBEs?utm_source=share&utm_medium=member_desktop)
 
 ##### O que eu aprendi
 
