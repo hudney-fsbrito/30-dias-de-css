@@ -5,9 +5,10 @@ import imageHomeDia2 from "../../assets/Dia2.gif"
 import imageHomeDia3 from "../../assets/Dia3.gif"
 import imageHomeDia4 from "../../assets/Dia4.gif"
 import imageHomeDia5 from "../../assets/Dia5.gif"
+import imageHomeDia6 from "../../assets/Dia6.gif"
 
 function Home() {
-  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5]
+  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6]
 
   return (
 

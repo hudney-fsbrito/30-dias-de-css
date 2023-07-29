@@ -1,6 +1,7 @@
 .image{
   max-height: 300px;
 }
-section{
-  background-color: red;
+.section{
+  display: flex;
+  flex-direction: column;
 }

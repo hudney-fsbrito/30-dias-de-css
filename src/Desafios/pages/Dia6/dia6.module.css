@@ -1,0 +1,45 @@
+@keyframes lightning {
+  0%{ text-shadow: 0 0px 0px #05c7f2;}
+  50%{text-shadow: 0 0px 0px #05c7f2;}
+  75%{color: #05c7f2; text-shadow: 0 0px 10px #05c7f2;}
+  90%{ text-shadow: 0 0px 60px #05c7f2;}
+}
+.div{
+  background-color: #334075;
+  height: 100vh;
+}
+
+.container{
+  height: 100vh;
+  color: #f2294e;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container span{
+  animation: lightning 4s linear 4s infinite ;
+  
+}
+
+.container span:nth-child(1){
+ animation-delay: 1.3s;
+ 
+}
+.container span:nth-child(2){
+  animation-delay: 2.3s;
+
+}
+.container span:nth-child(3){
+  animation-delay: 3.1s;
+
+}
+.container span:nth-child(4){
+  animation-delay: 3.9s;
+  margin-left: 10px;
+  
+}

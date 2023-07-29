@@ -125,3 +125,21 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 ##### O que eu aprendi
 
 * *[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+
+
+
+##  Desafio dia 06 - Efeito lightning text <a name="id06"></a>
+![dia 06](./src/Desafios/assets/Dia5.gif)
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia5)
+
+
+[Post LinkedIn]()
+
+##### O que eu aprendi
+
+* *animations*
+* *nth-child ()*
+
+
