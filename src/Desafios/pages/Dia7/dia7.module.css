@@ -1,0 +1,55 @@
+.div{
+  background-color: #F2C894;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #733A19;
+  color: #D9A05B;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  /* left: 0; */
+  animation: perseguir 4s ease-out infinite reverse none;
+}
+
+.span:nth-child(2){
+  animation-delay: 0.9s;
+}
+.span:nth-child(3){
+  animation-delay: 1.8s;
+}
+.span:nth-child(4){
+  animation-delay: 2.7s;
+}
+
+@keyframes perseguir {
+  /* 0% {top: 0;left: 50%;}
+  20% {top: 0;right: 0;}
+  50% {bottom: 0;right: 0;}
+  75% {bottom: 0;left: 0;}
+  90% {top: 0;left: 0;} */
+  0% {top: 0; left: 0;}
+
+  25% { top: 0; left: 50%;}
+
+  50% { top: 50%; left: 50%;}
+
+  75% { top: 50% ; left: 0;}
+
+  100% { top: 0; left: 0;} 
+}

@@ -15,9 +15,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
-<!-- * [Dia 06 - Efeito lightning text](#id06)
+* [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
-* [Dia 08 - Coração batendo](#id08)
+<!-- * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
 * [Dia 10 - Animação texto alternando](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
@@ -129,10 +129,10 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 ##  Desafio dia 06 - Efeito lightning text <a name="id06"></a>
-![dia 06](./src/Desafios/assets/Dia5.gif)
+![dia 06](./src/Desafios/assets/Dia6.gif)
 
 
-[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia5)
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia6)
 
 
 [Post LinkedIn]()
@@ -142,4 +142,18 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *animations*
 * *nth-child ()*
 
+
+
+##  Desafio dia 07 - Preloader animado <a name="id07"></a>
+![dia 07](./src/Desafios/assets/Dia7.gif)
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia7)
+
+[Post LinkedIn]()
+
+##### O que eu aprendi
+
+* *animations*
+* *nth-child ()*
 
