@@ -1,0 +1,40 @@
+.div{
+  height: 100vh;
+  /* background-color: #40061B; */
+  background-color: #A61B4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart{
+  position: relative;
+  background-color: #D94E73;
+  width: 100px;
+  height: 150px;
+  transform: rotate(45deg);
+  border-radius: 50px 50px 0 0;
+  animation: bateCoracao 1.3s linear infinite;
+ 
+}
+
+.heart::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -25px;
+  bottom: -25px;
+  transform: rotate(-90deg);
+  border-radius: 50px 50px 0 0;
+  background-color: #D94E73;
+}
+
+@keyframes bateCoracao {
+  
+  0%{transform: rotate(45deg) scale(1);}
+  25%{transform: rotate(45deg) scale(1.2);}
+  50%{transform: rotate(45deg) scale(1.1);}
+  75%{transform: rotate(45deg) scale(1.2);}
+  100%{transform: rotate(45deg) scale(1);}
+
+}

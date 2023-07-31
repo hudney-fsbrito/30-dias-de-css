@@ -157,3 +157,19 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *animations*
 * *nth-child ()*
 
+
+
+##  Desafio dia 08 - Coração batendo <a name="id08"></a>
+![dia 8](./src/Desafios/assets/Dia8.gif)
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
+
+[Post LinkedIn]()
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *transform: scale()*
+
+

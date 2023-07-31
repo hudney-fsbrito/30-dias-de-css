@@ -7,6 +7,7 @@ import BtnEfeito from "./Desafios/pages/Dia4";
 import Pulse from "./Desafios/pages/Dia5";
 import Lightning from "./Desafios/pages/Dia6";
 import ToChase from "./Desafios/pages/Dia7";
+import BateCoração from "./Desafios/pages/Dia8";
 
 function AppRoutes() {
 
@@ -21,6 +22,7 @@ function AppRoutes() {
         <Route path="/dia5" element={<Pulse></Pulse>}></Route>
         <Route path="/dia6" element={<Lightning></Lightning>}></Route>
         <Route path="/dia7" element={<ToChase></ToChase>}></Route>
+        <Route path="/dia8" element={<BateCoração></BateCoração>}></Route>
       </Routes>
     </BrowserRouter>
   )
