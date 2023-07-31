@@ -17,8 +17,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
-<!-- * [Dia 08 - Coração batendo](#id08)
-* [Dia 09 - Pendulo de Newton](#id09)
+* [Dia 08 - Coração batendo](#id08)
+<!-- * [Dia 09 - Pendulo de Newton](#id09)
 * [Dia 10 - Animação texto alternando](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
@@ -165,7 +165,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 [Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7091794469091446784/)
 
 ##### O que eu aprendi
 
