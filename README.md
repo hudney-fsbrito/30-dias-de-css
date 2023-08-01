@@ -175,7 +175,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 ##  Desafio dia 09 - Pendulo de Newton <a name="id09"></a>
-![dia 9](./src/Desafios/assets/Dia8.gif)
+![dia 9](./src/Desafios/assets/Dia9.gif)
 
 
 [Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
