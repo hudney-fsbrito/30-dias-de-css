@@ -18,10 +18,17 @@ function Home() {
       <h1>30 dias de CSS</h1>
 
       <section className={styleHome.section}>
-        {images.map((image, i) => (
-          <Link to={'/dia' + (i + 1)} target="_blank"><img className={styleHome.image} src={image} alt="Gif dos projetos do desafio"></img></Link>
+        <div className={styleHome.carousel}>
+          <button className={styleHome.btnL}>L</button>
+          <button className={styleHome.btnR}>R</button>
+          <div className={styleHome.inner}>
 
-        ))}
+            {images.map((image, i) => (
+              <Link to={'/dia' + (i + 1)} target="_blank"><img className={styleHome.image} src={image} alt="Gif dos projetos do desafio"></img></Link>
+
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* <Link to='/dia1' target="_blank"><img className={styleHome.image} src={imageDia1} alt="Animação de ícone em camadas"></img><button>Dia 1</button></Link>
