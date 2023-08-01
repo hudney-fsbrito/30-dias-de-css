@@ -8,6 +8,7 @@ import Pulse from "./Desafios/pages/Dia5";
 import Lightning from "./Desafios/pages/Dia6";
 import ToChase from "./Desafios/pages/Dia7";
 import BateCoração from "./Desafios/pages/Dia8";
+import Pendulo from "./Desafios/pages/Dia9";
 
 function AppRoutes() {
 
@@ -23,6 +24,7 @@ function AppRoutes() {
         <Route path="/dia6" element={<Lightning></Lightning>}></Route>
         <Route path="/dia7" element={<ToChase></ToChase>}></Route>
         <Route path="/dia8" element={<BateCoração></BateCoração>}></Route>
+        <Route path="/dia9" element={<Pendulo></Pendulo>}></Route>
       </Routes>
     </BrowserRouter>
   )

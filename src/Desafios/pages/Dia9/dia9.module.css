@@ -1,0 +1,57 @@
+.div{
+  height: 100vh;
+  background-color: #A65638;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  width: 40%;
+  height: 400px;
+  position: relative;
+  background-color: #592C1C;
+  border-top: 10px solid #F2D853;
+}
+.content{
+  position: relative;
+  height: 100%;
+  width: 5px;
+  background-color: #F2D853;
+  /* transform: rotate(-40deg); */
+}
+.pendulo{
+  position: absolute;
+  bottom: 0;
+  /* left: -900%; */
+  transform: translateX(-50%);
+  background-color: #F2D853;
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+}
+
+.content:first-child{
+  animation: balacarPenduloL 2s ease-in infinite;
+
+}
+.content:last-child{
+  animation: balacarPenduloR 2s ease-in 1s infinite;
+
+}
+@keyframes balacarPenduloL {
+  0%{ transform-origin: top; transform: rotate(0deg);}
+  25%{ transform-origin: top; transform: rotate(40deg);}
+  50%{ transform-origin: top; transform: rotate(0deg);}
+  75%{ transform-origin: top; transform: rotate(0deg);}
+  100%{ transform-origin: top; transform: rotate(0deg);}
+}
+@keyframes balacarPenduloR {
+  0%{ transform-origin: top; transform: rotate(0deg);}
+  25%{ transform-origin: top; transform: rotate(-40deg);}
+  50%{ transform-origin: top; transform: rotate(0deg);}
+  75%{ transform-origin: top; transform: rotate(0deg);}
+  100%{ transform-origin: top; transform: rotate(0deg);}
+}

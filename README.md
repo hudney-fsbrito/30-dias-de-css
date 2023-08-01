@@ -18,8 +18,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
-<!-- * [Dia 09 - Pendulo de Newton](#id09)
-* [Dia 10 - Animação texto alternando](#id10)
+* [Dia 09 - Pendulo de Newton](#id09)
+<!-- * [Dia 10 - Animação texto alternando](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
@@ -173,3 +173,18 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *transform: scale()*
 
 
+
+##  Desafio dia 09 - Pendulo de Newton <a name="id09"></a>
+![dia 9](./src/Desafios/assets/Dia8.gif)
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7092138689006346242/)
+
+##### O que eu aprendi
+
+* *[first-child](https://www.w3schools.com/cssref/sel_firstchild.asp)*
+* *[last-child](https://www.w3schools.com/cssref/sel_last-child.asp)*
+* *[transform-origin: ; ](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-origin)*
+* *[transform: rotate(); ](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/rotate)*
