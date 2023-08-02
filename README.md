@@ -19,15 +19,15 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
-<!-- * [Dia 10 - Animação texto alternando](#id10)
-* [Dia 11 - Botão com efeito hover](#id11)
+* [Dia 10 - Texto esfumaçado](#id10)
+<!-- * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
 * [Dia 15 - Texto flutuante](#id15)
 * [Dia 16 - Botão com efeito](#id16)
 * [Dia 17 - Loader animado](#id17)
-* [Dia 18 - Texto esfumaçado](#id18)
+* [Dia 18 - ](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 * [Dia 20 - Botão com efeito](#id20)
 * [Dia 21 - Esferas quicando](#id21)
@@ -175,10 +175,10 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 ##  Desafio dia 09 - Pendulo de Newton <a name="id09"></a>
-![dia 9](./src/Desafios/assets/Dia8.gif)
+![dia 9](./src/Desafios/assets/Dia9.gif)
 
 
-[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia9)
 
 [Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7092138689006346242/)
 
@@ -188,3 +188,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *[last-child](https://www.w3schools.com/cssref/sel_last-child.asp)*
 * *[transform-origin: ; ](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-origin)*
 * *[transform: rotate(); ](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/rotate)*
+
+
+
+##  Desafio dia 10 - Texto esfumaçado<a name="id18"></a>
+![dia 10](./src/Desafios/assets/Dia10.gif)
+
+
+
+[Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7092589718168608768/)
+
+##### O que eu aprendi
+
+* *filter*
+* *transformação*
+* *:hover*
