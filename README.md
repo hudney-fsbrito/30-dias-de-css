@@ -191,7 +191,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 
-##  Desafio dia 10 - Texto esfumaçado<a name="id18"></a>
+##  Desafio dia 10 - Texto esfumaçado<a name="id10"></a>
 ![dia 10](./src/Desafios/assets/Dia10.gif)
 
 
