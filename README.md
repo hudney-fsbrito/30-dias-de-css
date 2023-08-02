@@ -196,7 +196,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 
-[Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia8)
+[Meu código](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia10)
 
 [Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7092589718168608768/)
 
