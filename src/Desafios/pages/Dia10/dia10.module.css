@@ -17,14 +17,14 @@
 }
 
 .container .span {
-  transition: 2s;
+  transition: 0.8s;
 
 }
 
 .container:hover .span {
   /* animation: esfumaca 1s linear; */
-  transform: rotate(90deg) translateY(200px);
-  text-shadow: 0px -200px 10px rgba(105, 191, 183, 5);
+  transform: rotate(45deg) translateY(-200px);
+  text-shadow: 0px -200px 10px rgba(105, 191, 183, 0.5);
   filter: blur(15px);
   opacity: 0;
   cursor: pointer;
@@ -38,23 +38,23 @@
 
 .container .span:nth-child(2) {
   /* animation-delay: 1.2s; */
-  transition-delay: 1.2s;
+  transition-delay: 1.4s;
 }
 
 .container .span:nth-child(3) {
   /* animation-delay: 1.4s; */
-  transition-delay: 1.4s;
+  transition-delay: 1.7s;
 
 }
 
 .container .span:nth-child(4) {
   /* animation-delay: 1.6s; */
-  transition-delay: 1.6s;
+  transition-delay: 2s;
 }
 
 .container .span:nth-child(5) {
   /* animation-delay: 1.8s; */
-  transition-delay: 1.8s;
+  transition-delay: 2.3s;
 }
 
 /* @keyframes esfumaca {
