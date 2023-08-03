@@ -10,6 +10,7 @@ import ToChase from "./Desafios/pages/Dia7";
 import BateCoração from "./Desafios/pages/Dia8";
 import Pendulo from "./Desafios/pages/Dia9";
 import Esfumacar from "./Desafios/pages/Dia10";
+import AnimarIcone from "./Desafios/pages/Dia11";
 
 function AppRoutes() {
 
@@ -27,6 +28,7 @@ function AppRoutes() {
         <Route path="/dia8" element={<BateCoração></BateCoração>}></Route>
         <Route path="/dia9" element={<Pendulo></Pendulo>}></Route>
         <Route path="/dia10" element={<Esfumacar></Esfumacar>}></Route>
+        <Route path="/dia11" element={<AnimarIcone></AnimarIcone>}></Route>
       </Routes>
     </BrowserRouter>
   )

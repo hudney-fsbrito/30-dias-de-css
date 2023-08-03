@@ -1,0 +1,78 @@
+
+
+.div {
+  height: 100vh;
+  background-color: #88BFB5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B4D9CE;
+
+}
+
+.content:hover:after{
+  content: " ";
+  position: absolute;
+  z-index: 2;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px dashed black;
+  animation: giraRoda 1s ease-in-out;
+
+}
+
+.content:hover{
+  border: 5px solid black;
+}
+
+.content:nth-child(1), .content:nth-child(2), .content:nth-child(3){
+  background-image: url(../../assets/icon/IconesSelecionadosBrancos/home.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  
+}
+.content:nth-child(2){
+  background-image: url(../../assets/icon/IconesSelecionadosBrancos/chat.svg);
+}
+.content:nth-child(3){
+  background-image: url(../../assets/icon/IconesSelecionadosBrancos/basket.svg);
+}
+.content:nth-child(1):hover, .content:nth-child(2):hover, .content:nth-child(3):hover{
+  background-image: url(../../assets/icon/IconesSelecionados/home.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+.content:nth-child(2):hover{
+  background-image: url(../../assets/icon/IconesSelecionados/chat.svg);
+}
+.content:nth-child(3):hover{
+  background-image: url(../../assets/icon/IconesSelecionados/basket.svg);
+}
+
+@keyframes giraRoda {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(45deg);}
+}

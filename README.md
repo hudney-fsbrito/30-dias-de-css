@@ -20,8 +20,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
 * [Dia 10 - Texto esfumaçado](#id10)
-<!-- * [Dia 11 - Botão com efeito hover](#id11)
-* [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
+* [Dia 11 - Ícone com efeito hover](#id11)
+<!-- * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
 * [Dia 15 - Texto flutuante](#id15)
@@ -205,3 +205,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *filter*
 * *transformação*
 * *:hover*
+
+
+
+##  Desafio dia 11 - Ícone com efeito hover <a name="id11"></a>
+![dia 11](./src/Desafios/assets/Dia11.gif)
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia11)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7092923932671918080/)
+
+##### O que eu aprendi
+
+* *:hover* 
+* *::before*
+* *Transições*
+* *z-index*
