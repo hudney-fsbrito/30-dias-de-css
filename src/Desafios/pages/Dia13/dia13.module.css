@@ -1,0 +1,27 @@
+/* #A61B4E #D94E73 #40061B #F2294E*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.div {
+  height: 100vh;
+  background-color: #A61B4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kanit', sans-serif;
+  position: relative;
+}
+
+.div span{
+  font-size: 200px;
+  animation: flutua 4s ease-in-out infinite;
+}
+
+@keyframes flutua {
+  0%{transform:  translateY(0px) }
+  50%{transform:  translateY(-100px)  rotate(-5deg)}
+  100%{transform:  translateY(0px) rotate(0deg)}
+
+  
+}
+
+

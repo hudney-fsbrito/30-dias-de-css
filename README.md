@@ -22,9 +22,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 10 - Texto esfumaçado](#id10)
 * [Dia 11 - Ícone com efeito hover](#id11)
 * [Dia 12 - Menu com Hover ](#id12)
-<!-- * [Dia 13 - Loading com efeito](#id13)
-* [Dia 14 - Fundo de texto animado](#id14)
-* [Dia 15 - Texto flutuante](#id15)
+* [Dia 13 - Texto flutuante](#id13)
+<!-- * [Dia 14 - Fundo de texto animado](#id14)
+* [Dia 15 - ](#id15)
 * [Dia 16 - Botão com efeito](#id16)
 * [Dia 17 - Loader animado](#id17)
 * [Dia 18 - ](#id18)
@@ -238,3 +238,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *::before*
 * *::after*
 * *Transições*
+
+
+
+##  Desafio dia 13 - Texto flutuante<a name="id13"></a>
+![dia 13](./src/Desafios/assets/Dia13.gif)
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia13)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7093712180042244097/)
+
+##### O que eu aprendi
+
+
+* *transformação
+* *animations*
+
