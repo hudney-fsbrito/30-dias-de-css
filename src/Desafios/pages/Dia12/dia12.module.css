@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.div {
+  background-color: #23342F;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 400px;
+  /* background-color: aqua; */
+}
+
+.li {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background-color: #008B6C;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.5s;
+  box-shadow: 0px 0px 20px #008B6C;
+
+}
+
+.li:hover {
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+
+.li::after{
+  position: absolute;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 0.1s;
+  
+}
+.li::before{
+  border-radius: 50px;
+  transition: 0.1s;
+}
+.li:hover:before{
+  visibility: hidden;  
+  transition: 0.1s;
+}
+
+.li:hover:after{
+  visibility: visible;
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.1s;  
+  border-radius: 25px;
+}
+
+
+.li:nth-child(1):before {
+  content: url(../../assets/icon/IconesVazados/home.svg);
+
+}
+
+.li:nth-child(2):before {
+  content: url(../../assets/icon/IconesVazados/chatbubbles.svg);
+}
+
+.li:nth-child(3):before {
+  content: url(../../assets/icon/IconesVazados/star.svg);
+}
+
+.li:nth-child(4):before {
+  content: url(../../assets/icon/IconesVazados/bag-handle.svg);
+}
+
+
+.li:nth-child(1)::after{
+  content: "Home";
+}
+.li:nth-child(2)::after{
+  content: "Mensagens";
+}
+.li:nth-child(3)::after{
+  content: "Favoritos";
+}
+.li:nth-child(4)::after{
+  content: "Sacola";
+}
+
+
