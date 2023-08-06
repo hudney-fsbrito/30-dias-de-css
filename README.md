@@ -23,8 +23,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 11 - Ícone com efeito hover](#id11)
 * [Dia 12 - Menu com Hover ](#id12)
 * [Dia 13 - Texto flutuante](#id13)
-<!-- * [Dia 14 - Fundo de texto animado](#id14)
-* [Dia 15 - ](#id15)
+* [Dia 14 - Checked Heart](#id14)
+<!-- * [Dia 15 - ](#id15)
 * [Dia 16 - Botão com efeito](#id16)
 * [Dia 17 - Loader animado](#id17)
 * [Dia 18 - ](#id18)
@@ -254,4 +254,22 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * *transformação
 * *animations*
+
+
+
+##  Desafio dia 14 - Checked Heart<a name="id14"></a>
+![dia 14](./src/Desafios/assets/Dia14.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia14)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7094060712561393664/)
+
+##### O que eu aprendi
+
+
+* *[:checked](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)*
+* *[adjacent sibling combinator (+)](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)*
+
 

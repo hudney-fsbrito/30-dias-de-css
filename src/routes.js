@@ -13,6 +13,7 @@ import Esfumacar from "./Desafios/pages/Dia10";
 import AnimarIcone from "./Desafios/pages/Dia11";
 import MenuHove from "./Desafios/pages/Dia12";
 import Floating from "./Desafios/pages/Dia13";
+import CheckHeart from "./Desafios/pages/Dia14";
 
 function AppRoutes() {
 
@@ -34,6 +35,7 @@ function AppRoutes() {
         <Route path="/dia12" element={<MenuHove></MenuHove>}></Route>
         <Route path="/dia11" element={<AnimarIcone></AnimarIcone>}></Route>
         <Route path="/dia13" element={<Floating></Floating>}></Route>
+        <Route path="/dia14" element={<CheckHeart></CheckHeart>}></Route>
       </Routes>
     </BrowserRouter>
   )
