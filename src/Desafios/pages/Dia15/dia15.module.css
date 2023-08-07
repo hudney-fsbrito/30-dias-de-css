@@ -1,0 +1,47 @@
+.div{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card{
+  height:200px;
+  width: 200px;
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 2s;
+}
+.cardFront, .cardBack {
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; 
+}
+.cardFront img, .cardBack img {
+  display: inline-block;
+  height:100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid #13113C;
+  padding: 5px;
+  transition: 1s;
+}
+
+
+.cardBack {
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  transition: 1s;
+}
+
+
+/* .cardBack img:hover, .cardFront img:hover{
+  transform: rotateY(180deg);
+  transition: 1s;
+} */
+
