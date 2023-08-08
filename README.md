@@ -25,8 +25,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 13 - Texto flutuante](#id13)
 * [Dia 14 - Checked Heart](#id14)
 * [Dia 15 - Cards com animação flip](#id15)
-<!-- * [Dia 16 - Botão com efeito](#id16)
-* [Dia 17 - Loader animado](#id17)
+* [Dia 16 - Texto com cor animada](#id16)
+<!-- * [Dia 17 - Loader animado](#id17)
 * [Dia 18 - ](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 * [Dia 20 - Botão com efeito](#id20)
@@ -290,3 +290,17 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *backface-visibility: hidden*
 
 
+
+##  Desafio dia 16 - Texto com cor animada<a name="id16"></a>
+![dia 16](./src/Desafios/assets/Dia16.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia16)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7094697744249819136/)
+
+##### O que eu aprendi
+
+
+* *[overflow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow)*
