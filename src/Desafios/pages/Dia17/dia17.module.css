@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@300;400;600;700;800;900&display=swap');
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo:wght@300;400;600;700;800;900&family=Inter:wght@400;700;800&family=Kanit&family=Lexend+Deca&family=Montserrat+Alternates:wght@400;600;800&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700;900&display=swap'); */
+
+
+.div {
+  background-color: #505050;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.search{
+  display: inline-flex;
+  background-color: yellow;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 15px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 500;
+}
+
+.search input,button{
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+.search input{
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 1px 1px white;
+  color: black;
+  width: 0px;
+
+  transition: 1s;
+}
+.search button{
+  cursor: pointer;
+  /* display: grid; */
+  /* place-items: center; */
+}
+
+.search:focus-within input{
+  
+  width: 200px;
+  transition: 0.8s;
+}

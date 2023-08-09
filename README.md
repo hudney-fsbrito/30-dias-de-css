@@ -26,8 +26,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 14 - Checked Heart](#id14)
 * [Dia 15 - Cards com animação flip](#id15)
 * [Dia 16 - Texto com cor animada](#id16)
-<!-- * [Dia 17 - Loader animado](#id17)
-* [Dia 18 - ](#id18)
+* [Dia 17 - Barra de pesquisa](#id17)
+<!-- * [Dia 18 - Loader animado](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 * [Dia 20 - Botão com efeito](#id20)
 * [Dia 21 - Esferas quicando](#id21)
@@ -304,3 +304,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 * *[overflow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow)*
+
+
+
+##  Desafio dia 17 - Barra de pesquisa<a name="id17"></a>
+![dia 17](./src/Desafios/assets/Dia17.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia17)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7095050386230644736/)
+
+##### O que eu aprendi
+
+
+* *[focus-within](https://pt.stackoverflow.com/questions/387245/com-css-%C3%A9-poss%C3%ADvel-controlar-qual-elemento-vai-ativar-o-focus-within-de-um-form#:~:text=O%20%3Afocus%2Dwithin%20seleciona%20o,de%20estilo%20desejada%20no%20formul%C3%A1rio.)*
+* *[focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within)*

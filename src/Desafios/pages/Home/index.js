@@ -16,9 +16,10 @@ import imageHomeDia13 from "../../assets/Dia13.gif"
 import imageHomeDia14 from "../../assets/Dia14.gif"
 import imageHomeDia15 from "../../assets/Dia15.gif"
 import imageHomeDia16 from "../../assets/Dia16.gif"
+import imageHomeDia17 from "../../assets/Dia17.gif"
 
 function Home() {
-  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16]
+  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17]
 
   return (
 
