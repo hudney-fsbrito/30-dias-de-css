@@ -1,0 +1,76 @@
+.div{
+  background-color: #505050;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  transition: 1s;
+}
+
+.label{
+  position: relative;
+  display: flex;
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.label input{
+  position: relative;
+  opacity: 0;
+  width: 30px;
+  height: 20px;
+}
+
+.label span{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transform: translateX(55px);
+  top: 5px;
+  transition: 1s;
+  background-color: aqua;
+  z-index: 2;
+  cursor: pointer;
+}
+.label:after{
+  content: "";
+  display: flex;
+  position: absolute;
+  background-image: url(../../assets/icon/IconesSelecionados/fire.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  z-index: 1;
+}
+.label::before{
+  content: "";
+  display: flex;
+  position: absolute;
+  background-image: url(../../assets/icon/IconesSelecionados/snowflake-o.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  z-index: 1;
+}
+
+.label input:checked + span{
+  transition: 1s;
+  transform: translateX(-5px);
+  background-color: red;
+}
+.div label:has(.input:checked)  {
+  transition: 1s;
+  background-color: yellow;
+}
+.div:has(.input:checked)  {
+  transition: 1s;
+  background-color: red;
+}

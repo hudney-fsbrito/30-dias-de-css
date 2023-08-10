@@ -17,6 +17,7 @@ import CheckHeart from "./Desafios/pages/Dia14";
 import Flipped from "./Desafios/pages/Dia15";
 import ChangeColor from "./Desafios/pages/Dia16";
 import Search from "./Desafios/pages/Dia17";
+import LightDark from "./Desafios/pages/Dia18";
 
 function AppRoutes() {
 
@@ -42,6 +43,7 @@ function AppRoutes() {
         <Route path="/dia15" element={<Flipped></Flipped>}></Route>
         <Route path="/dia16" element={<ChangeColor></ChangeColor>}></Route>
         <Route path="/dia17" element={<Search></Search>}></Route>
+        <Route path="/dia18" element={<LightDark></LightDark>}></Route>
       </Routes>
     </BrowserRouter>
   )

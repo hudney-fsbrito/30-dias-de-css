@@ -27,8 +27,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 15 - Cards com animação flip](#id15)
 * [Dia 16 - Texto com cor animada](#id16)
 * [Dia 17 - Barra de pesquisa](#id17)
-<!-- * [Dia 18 - Loader animado](#id18)
-* [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
+* [Dia 18 - Botão Fire-Snow/DarkMode](#id18)
+<!-- * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 * [Dia 20 - Botão com efeito](#id20)
 * [Dia 21 - Esferas quicando](#id21)
 * [Dia 22 - Icones com efeito](#id22)
@@ -39,7 +39,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 27 - Efeito pulsar](#id27)
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
-* [Dia 30 - Fogos de artificio](#id30) -->
+* [Dia 30 - Fogos de artificio](#id30)
+  Loader animado
+ -->
 
 
 
@@ -321,3 +323,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * *[focus-within](https://pt.stackoverflow.com/questions/387245/com-css-%C3%A9-poss%C3%ADvel-controlar-qual-elemento-vai-ativar-o-focus-within-de-um-form#:~:text=O%20%3Afocus%2Dwithin%20seleciona%20o,de%20estilo%20desejada%20no%20formul%C3%A1rio.)*
 * *[focus-within](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus-within)*
+
+
+
+##  Desafio dia 18 - Botão Fire-Snow/DarkMode<a name="id18"></a>
+![dia 18](./src/Desafios/assets/Dia18.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia18)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7095503947632717824/)
+
+##### O que eu aprendi
+
+
+* *[:has()](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)*
+* *[:has()](https://pt.stackoverflow.com/questions/13876/alguma-maneira-de-estilizar-elemento-pai-com-css)*
