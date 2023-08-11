@@ -1,0 +1,83 @@
+/* #f2e2ce #bfb634 #bf7d2c */
+
+.div{
+  height: 100vh;
+  background-color: #f2e2ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adesivo{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #bfb634;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* backface-visibility: hidden; */
+  overflow: hidden;
+  transition: 1s;
+}
+
+
+.adesivo::after{
+  /* content: ""; */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(110px, -70px);
+  transition: 1s;
+  z-index: 2;
+}
+
+.plastico{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /* top: 0;
+  left: 0; */
+  background-color: #bf7d2c;
+  border-radius: 50%;
+  /* border-radius: 100px 250px 80px 80px; */
+  transform: rotate(50deg);
+  transition: 1s;
+}
+
+.adesivo::before{
+  /* content: " A"; */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /* top: 0;
+  left: 0; */
+  background-color: #bf7d2c;
+  border-radius: 50%;
+  /* border-radius: 100px 250px 80px 80px; */
+  transform: rotate(25deg);
+  transition: 1s;
+}
+
+.plastico:hover{
+
+  transform: translate(-110px, 70px);
+  /* transform: rotate(0deg); */
+  transition: 1s;
+
+}
+.div .adesivo:hover:after + .plastico{
+
+  transform: translate(-110px, 70px);
+  transition: 1s;
+
+}
+.adesivo:hover:after{
+
+  transform: translate(-110px, 70px);
+  transition: 1s;
+
+}

@@ -1,0 +1,35 @@
+.div{
+  height: 100vh;
+  background-color: #505050;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div p{
+  font-size: 2em;
+  border-right: 3px solid  rgba(204, 204, 204, 0.7);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.line{
+  animation: pisca .4s steps(50) infinite normal, Escrever 3s steps(50) .5s normal both;
+}
+@keyframes pisca {
+  0%{
+    border-right-color: 3px solid rgba(204, 204, 204, 0.7);
+  }
+  100%{
+    border-right-color: transparent;
+  }
+}
+
+@keyframes Escrever {
+  
+  0% {width: 0;}
+  50% {width: 5em;}
+  100% {width: 11em;}
+
+}
