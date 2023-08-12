@@ -360,7 +360,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 
-##  Desafio dia 20 - Efeito máquina de escrever<a name="id20"></a>
+##  Desafio dia 20 - Efeito descolar<a name="id20"></a>
 ![dia 20](./src/Desafios/assets/Dia20.gif)
 
 
