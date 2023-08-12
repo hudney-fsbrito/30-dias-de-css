@@ -1,83 +1,108 @@
 /* #f2e2ce #bfb634 #bf7d2c */
 
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@300;400;600;700;800;900&display=swap');
+
 .div{
   height: 100vh;
   background-color: #f2e2ce;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
 }
-
 .adesivo{
   position: relative;
-  width: 200px;
-  height: 200px;
-  background-color: #bfb634;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* backface-visibility: hidden; */
+  width: 180px;
+  height: 180px;
+ 
+  transition: 1s;
+}
+.adesivo div{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 0;
+  top: 0;
+  
   overflow: hidden;
-  transition: 1s;
+  /* background-color: #bf7d2c; */
 }
 
-
-.adesivo::after{
-  /* content: ""; */
+.adesivo .circulo{
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  border-radius: 50%;
-  transform: translate(110px, -70px);
+  height: 140px;
+  width: 140px;
+  border-radius: 25px; 
+  margin: 20px;  
   transition: 1s;
-  z-index: 2;
+  cursor: pointer;
+
 }
 
-.plastico{
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  /* top: 0;
-  left: 0; */
+.plasticoFrente .circulo{
+  margin-top: -10px;
   background-color: #bf7d2c;
-  border-radius: 50%;
-  /* border-radius: 100px 250px 80px 80px; */
-  transform: rotate(50deg);
-  transition: 1s;
-}
+  
+  background-image: -webkit-linear-gradient(bottom,
+  rgba(251,236,63,.0) 75%, #3f2301 95%);
 
-.adesivo::before{
-  /* content: " A"; */
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  /* top: 0;
-  left: 0; */
+  
+
+}
+.plasticoTraz .circulo{
+  margin-top: -130px;
   background-color: #bf7d2c;
-  border-radius: 50%;
-  /* border-radius: 100px 250px 80px 80px; */
-  transform: rotate(25deg);
+  
+}
+
+.content .circulo{
+  background-color: #bfb634;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.adesivo .plasticoFrente{
+  height: 150px;
+  bottom: 0;
+  top: auto;
+  transition: 1s;
+  
+}
+.adesivo .plasticoFrente .circulo{
+  border: 1px solid #3f2301;
+}
+
+.adesivo .plasticoTraz{
+  top: 30px;
+  transition: 1s;
+}
+.adesivo .plasticoTraz .circulo{
+  transition: 1s;
+  border: 1px solid #3f2301;
+  
+}
+.adesivo:hover .plasticoTraz {
+  height: 90px;
+  top: 110px;
+  transition: 1s;
+}
+.adesivo:hover .plasticoTraz .circulo{
+  margin-top: -50px;
   transition: 1s;
 }
 
-.plastico:hover{
 
-  transform: translate(-110px, 70px);
-  /* transform: rotate(0deg); */
+.adesivo:hover .plasticoFrente{
+  height: 70px;
   transition: 1s;
-
 }
-.div .adesivo:hover:after + .plastico{
-
-  transform: translate(-110px, 70px);
+.adesivo:hover .plasticoFrente .circulo{
+  margin-top: -90px;
   transition: 1s;
-
+  background-color: #bf7d2c;
+  background-position: 0 100px;
 }
-.adesivo:hover:after{
 
-  transform: translate(-110px, 70px);
-  transition: 1s;
-
-}

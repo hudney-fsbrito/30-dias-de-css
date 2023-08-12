@@ -29,8 +29,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 17 - Barra de pesquisa](#id17)
 * [Dia 18 - Botão Fire-Snow/DarkMode](#id18)
 * [Dia 19 - Efeito máquina de escrever](#id19)
-<!-- * [Dia 20 - Botão com efeito](#id20)
-* [Dia 21 - Esferas quicando](#id21)
+* [Dia 20 - Efeito deslocar](#id20)
+<!-- * [Dia 21 - Esferas quicando](#id21)
 * [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Efeitos de animação de fundo de partículas Botão com efeito hover](#id23)
 * [Dia 24 - Preloader animado](#id24)
@@ -357,3 +357,19 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * *[white-space: nowrap;](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)*
 * *[steps()](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)*
+
+
+
+##  Desafio dia 20 - Efeito máquina de escrever<a name="id20"></a>
+![dia 20](./src/Desafios/assets/Dia20.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia20)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7096266024441774080/)
+
+##### O que eu aprendi
+
+
+* *overflow*

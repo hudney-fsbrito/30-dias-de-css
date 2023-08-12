@@ -19,6 +19,7 @@ import ChangeColor from "./Desafios/pages/Dia16";
 import Search from "./Desafios/pages/Dia17";
 import LightDark from "./Desafios/pages/Dia18";
 import Typewriter from "./Desafios/pages/Dia19";
+import Sticky from "./Desafios/pages/Dia20";
 
 function AppRoutes() {
 
@@ -46,6 +47,7 @@ function AppRoutes() {
         <Route path="/dia17" element={<Search></Search>}></Route>
         <Route path="/dia18" element={<LightDark></LightDark>}></Route>
         <Route path="/dia19" element={<Typewriter></Typewriter>}></Route>
+        <Route path="/dia20" element={<Sticky></Sticky>}></Route>
       </Routes>
     </BrowserRouter>
   )
