@@ -30,8 +30,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 18 - Botão Fire-Snow/DarkMode](#id18)
 * [Dia 19 - Efeito máquina de escrever](#id19)
 * [Dia 20 - Efeito deslocar](#id20)
-<!-- * [Dia 21 - Esferas quicando](#id21)
-* [Dia 22 - Icones com efeito](#id22)
+* [Dia 21 - Card expansível](#id21)
+<!-- * [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Efeitos de animação de fundo de partículas Botão com efeito hover](#id23)
 * [Dia 24 - Preloader animado](#id24)
 * [Dia 25 - Checkbox animado](#id25)
@@ -373,3 +373,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 * *overflow*
+
+
+
+##  Desafio dia 21 - Card expansível<a name="id21"></a>
+![dia 21](./src/Desafios/assets/Dia21.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia21)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7096573377842155522/)
+
+##### O que eu aprendi
+
+
+* *translateY()*
+* *z-index*

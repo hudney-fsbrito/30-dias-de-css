@@ -1,0 +1,53 @@
+.div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.containerCard, .card{
+  height: 250px;
+  width: 250px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card{
+  background-image: url(../../assets/icon/Ilustrations/Caqui_Dark.png);
+  background-size: cover;
+  margin: auto;
+  box-sizing: content-box;
+  transition: 1.5s;
+  z-index: 1;
+}
+
+.card:hover{
+  background-image: url(../../assets/icon/Ilustrations/Estation_Dark.png);
+  transition: 1.5s;
+}
+
+.descripton{
+  height: auto;
+  width: 248px;
+  margin: -2px;
+  padding: 5px;
+  /* padding-bottom: 5px; */
+  /* display: flex;
+  align-items: center; */
+  border-radius: 0 0 200px 200px;
+  border: 1px solid #13113c;
+  background-color: rgba(3, 161, 161, 0.205);
+  color: #13113c;
+  transform: translateY(-245px);
+  transition: 2.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.div .containerCard:hover + .descripton{
+  transition: 2.5s;
+  transform: translateY(0px);
+  border-radius: 0 0 10px 10px;
+}
