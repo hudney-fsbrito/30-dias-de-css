@@ -21,6 +21,7 @@ import LightDark from "./Desafios/pages/Dia18";
 import Typewriter from "./Desafios/pages/Dia19";
 import Sticky from "./Desafios/pages/Dia20";
 import ExpandCard from "./Desafios/pages/Dia21";
+import ExpandImage from "./Desafios/pages/Dia22";
 
 function AppRoutes() {
 
@@ -50,6 +51,7 @@ function AppRoutes() {
         <Route path="/dia19" element={<Typewriter></Typewriter>}></Route>
         <Route path="/dia20" element={<Sticky></Sticky>}></Route>
         <Route path="/dia21" element={<ExpandCard></ExpandCard>}></Route>
+        <Route path="/dia22" element={<ExpandImage></ExpandImage>}></Route>
       </Routes>
     </BrowserRouter>
   )
