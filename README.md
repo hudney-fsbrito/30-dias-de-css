@@ -32,8 +32,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 20 - Efeito deslocar](#id20)
 * [Dia 21 - Card expansível](#id21)
 * [Dia 22 - Imagens que se expadem](#id22)
-<!-- * [Dia 23 - Card com hover](#id23)
-* [Dia 24 - Título com hover](#id24)
+* [Dia 23 - Card com hover](#id23)
+<!-- * [Dia 24 - Título com hover](#id24)
 * [Dia 25 - Tela de login](#id25)
 * [Dia 26 - Menu hamburguer](#id26)
 * [Dia 27 - Fogos de artificio](#id27)
@@ -406,3 +406,19 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 * *translateZ()*
+
+
+
+##  Desafio dia 23 - Imagens que se expadem<a name="id23"></a>
+![dia 23](./src/Desafios/assets/Dia23.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia23)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7097229247303315457/)
+
+##### O que eu aprendi
+
+
+* *scale()*

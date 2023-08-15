@@ -1,0 +1,75 @@
+.div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F18324;
+}
+
+.card{
+  /* border: 1px solid black; */
+  box-shadow: 0 0 5px #0D2226;
+  border-radius: 25px;
+  background-color: #D3D9A9;
+  cursor: pointer;
+  width: 250px;
+  height: 350px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.foto{
+  background-image: url(../../assets/icon/Ilustrations/fone.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #D3D9A9;
+  border-radius: 50%;
+  box-shadow: 0 0 5px black;
+  width: 100px;
+  height: 100px;
+  transition: .5s;
+  
+}
+
+.card h1{
+  font-size: 30px;
+  margin-top: 60px;
+  transition: .5s;
+  color: #F18324;
+}
+
+.card ul{
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 5px;
+  opacity: 0 ;
+  transition: .5s;
+  list-style: none;
+}
+
+.card li img{
+  height: 20px;
+}
+
+.card:hover .foto{
+  transform: scaleZ(.5);
+  height: 150px;
+  width: 150px;
+  transition: .8s;
+}
+.card:hover h1{
+  font-size: 20px;
+  margin-top: 30px;
+  transition: .8s;
+}
+.card:hover ul{
+  bottom: 25px;
+  opacity: .6;
+  transition: .8s;
+
+}
