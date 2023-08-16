@@ -33,8 +33,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 21 - Card expansível](#id21)
 * [Dia 22 - Imagens que se expadem](#id22)
 * [Dia 23 - Card com hover](#id23)
-<!-- * [Dia 24 - Título com hover](#id24)
-* [Dia 25 - Tela de login](#id25)
+* [Dia 24 - Título com hover efeito espelhado](#id24)
+<!-- * [Dia 25 - Tela de login](#id25)
 * [Dia 26 - Menu hamburguer](#id26)
 * [Dia 27 - Fogos de artificio](#id27)
 * [Dia 28 - Slider de imagens](#id28)
@@ -409,7 +409,7 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 
-##  Desafio dia 23 - Imagens que se expadem<a name="id23"></a>
+##  Desafio dia 23 - Card com hover<a name="id23"></a>
 ![dia 23](./src/Desafios/assets/Dia23.gif)
 
 
@@ -422,3 +422,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 * *scale()*
+
+
+
+##  Desafio dia 24 - Título com hover eeito espelhado<a name="id24"></a>
+![dia 24](./src/Desafios/assets/Dia24.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia24)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7097593870670082048/)
+
+##### O que eu aprendi
+
+
+* *[-webkit-mask-image: linear-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-box-image)*
+* *[-webkit-box-reflect: below linear-gradient())](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)*

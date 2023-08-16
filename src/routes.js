@@ -23,6 +23,7 @@ import Sticky from "./Desafios/pages/Dia20";
 import ExpandCard from "./Desafios/pages/Dia21";
 import ExpandImage from "./Desafios/pages/Dia22";
 import CardHover from "./Desafios/pages/Dia23/iindex";
+import TitleHover from "./Desafios/pages/Dia24";
 
 function AppRoutes() {
 
@@ -44,7 +45,7 @@ function AppRoutes() {
         <Route path="/dia12" element={<MenuHove></MenuHove>}></Route>
         <Route path="/dia11" element={<AnimarIcone></AnimarIcone>}></Route>
         <Route path="/dia13" element={<Floating></Floating>}></Route>
-        <Route path="/dia14" element={<CheckHeart></CheckHeart>}></Route>
+        <Route path="/dia14" element={<CheckHeart></CheckHeart>}></Route>B
         <Route path="/dia15" element={<Flipped></Flipped>}></Route>
         <Route path="/dia16" element={<ChangeColor></ChangeColor>}></Route>
         <Route path="/dia17" element={<Search></Search>}></Route>
@@ -54,6 +55,7 @@ function AppRoutes() {
         <Route path="/dia21" element={<ExpandCard></ExpandCard>}></Route>
         <Route path="/dia22" element={<ExpandImage></ExpandImage>}></Route>
         <Route path="/dia23" element={<CardHover></CardHover>}></Route>
+        <Route path="/dia24" element={<TitleHover></TitleHover>}></Route>
       </Routes>
     </BrowserRouter>
   )
