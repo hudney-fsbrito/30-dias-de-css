@@ -24,6 +24,7 @@ import ExpandCard from "./Desafios/pages/Dia21";
 import ExpandImage from "./Desafios/pages/Dia22";
 import CardHover from "./Desafios/pages/Dia23/iindex";
 import TitleHover from "./Desafios/pages/Dia24";
+import TelaLogin from "./Desafios/pages/Dia25";
 
 function AppRoutes() {
 
@@ -56,6 +57,7 @@ function AppRoutes() {
         <Route path="/dia22" element={<ExpandImage></ExpandImage>}></Route>
         <Route path="/dia23" element={<CardHover></CardHover>}></Route>
         <Route path="/dia24" element={<TitleHover></TitleHover>}></Route>
+        <Route path="/dia25" element={<TelaLogin></TelaLogin>}></Route>
       </Routes>
     </BrowserRouter>
   )

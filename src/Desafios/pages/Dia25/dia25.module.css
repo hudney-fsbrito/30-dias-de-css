@@ -1,0 +1,123 @@
+/* background-color: #343D59; */
+/* background-color: #26A682; */
+/* background-color: #F2EFBD; */
+
+.div {
+  height: 100vh;
+  background-color: aquamarine;
+  color: #343D59;
+  background-image: url(../../assets/icon/Ilustrations/dragoes-e-imagem-de-inteligencia-artificial-de-fantasia.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-inline: 50px;
+}
+
+.div .formulario,
+.container_descricao {
+  background-color: rgba(0, 255, 255, .5);
+  border-radius: 20px 50px;
+  height: 300px;
+  width: 400px;
+
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 35%;
+
+}
+
+.formulario label {
+  flex: none;
+  display: block;
+  text-align: start;
+}
+
+.formulario input {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+  caret-color: #F2EFBD;
+  width: 100%;
+}
+
+.formulario input:focus {
+  background-color: #343D59;
+  /* border:2px solid #343D59; */
+  transition: .4s;
+  color: #F2EFBD;
+}
+.container_Btn button{
+  background-color: #26A682;
+  width: 150px;
+  padding: 10px;
+  margin: 2px;
+  margin-top: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.container_Btn button:active{
+  background-color: #343D59;
+  color: #F2EFBD;
+  pointer-events: none;
+}
+
+.verificacao {
+  margin-top: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.verificacao label{
+  position: relative;
+  padding-left: 15px;
+}
+
+.verificacao input{
+  display: none;  
+}
+.verificacao label:hover{
+  cursor: pointer;  
+}
+.verificacao span{
+  width: 13px;
+  height: 13px;
+  border: 1px solid  #343D59;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 20%;
+  border-radius: 2px;  
+}
+
+
+.verificacao input:checked + span{
+  background-color: #343D59;
+  padding-right: 3px;
+  width: 13px;
+  height: 13px;
+}
+.verificacao a{
+  text-decoration: none;
+  color: #343D59;
+}
+.verificacao a:visited{
+  color: #343D59;
+}
+
+.container_descricao{
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

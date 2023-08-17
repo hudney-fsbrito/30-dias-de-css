@@ -34,8 +34,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 22 - Imagens que se expadem](#id22)
 * [Dia 23 - Card com hover](#id23)
 * [Dia 24 - Título com hover efeito espelhado](#id24)
-<!-- * [Dia 25 - Tela de login](#id25)
-* [Dia 26 - Menu hamburguer](#id26)
+* [Dia 25 - Tela de login](#id25)
+<!-- * [Dia 26 - Menu hamburguer](#id26)
 * [Dia 27 - Fogos de artificio](#id27)
 * [Dia 28 - Slider de imagens](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
@@ -439,3 +439,20 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * *[-webkit-mask-image: linear-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-box-image)*
 * *[-webkit-box-reflect: below linear-gradient())](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)*
+
+
+
+##  Desafio dia 25 - Tela de login <a name="id25"></a>
+![dia 25](./src/Desafios/assets/Dia25.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia25)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7097992271941296128/)
+
+##### O que eu aprendi
+
+
+* *[Pseudo-classes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)*
+* *[:nth-child()](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)*
