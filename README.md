@@ -35,8 +35,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 23 - Card com hover](#id23)
 * [Dia 24 - Título com hover efeito espelhado](#id24)
 * [Dia 25 - Tela de login](#id25)
-<!-- * [Dia 26 - Menu hamburguer](#id26)
-* [Dia 27 - Fogos de artificio](#id27)
+* [Dia 26 - Menu hambúrguer](#id26)
+<!-- * [Dia 27 - Fogos de artificio](#id27)
 * [Dia 28 - Slider de imagens](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Tilt Effect](#id30)
@@ -456,3 +456,21 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * *[Pseudo-classes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)*
 * *[:nth-child()](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)*
+
+
+
+##  Desafio dia 26 - Menu hmbúrguer <a name="id26"></a>
+![dia 26](./src/Desafios/assets/Dia26.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia26)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7098308320481939456/)
+
+##### O que eu aprendi
+
+
+* *[Pseudo-classes :has](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)*
+* *[Seletore + ](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)*
+* *[Seletore > ](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)*

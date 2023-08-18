@@ -1,0 +1,126 @@
+/* background-color: #F2EFBD 
+#26A682
+*/
+/* 
+background-color: #BF2431 
+background-color: #0D0D0D 
+background-color: #F2F2F2
+*/
+
+.div {
+  height: 100vh;
+  background-color: #F2EFBD;
+  display: flex;
+}
+
+.div .input {
+  position: absolute;
+  display: none;
+}
+
+.hamburguer_Menu,
+.label {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: #343D59;
+  border: 1px solid #BF2431;
+  box-shadow:
+    0 0 01px #BF2431,
+    0 0 5px #BF2431,
+    0 0 10px rgb(191, 36, 49);
+  margin: auto;
+  display: flex;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.navBar {
+  position: absolute;
+  z-index: 1;
+  top: 00%;
+  left: 0%;
+  height: 50px;
+  width: 50px;
+  color: rgb(191, 36, 49, 0);
+  transition: .8s;
+}
+.navBar ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #BF2431;
+  list-style: none;
+}
+.navBar ul li{
+  align-self: center;
+}
+
+
+.hamburguer_Icon {
+  position: relative;
+  height: 50%;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburguer_Icon span {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  border: 1px solid #BF2431;
+  background: linear-gradient(90deg, #BF2431, black);
+  border-radius: 25px;
+}
+
+.hamburguer_Icon span:nth-child(1) {
+  top: 0;
+  left: 0;
+  transition: .8s;
+}
+
+.hamburguer_Icon span:nth-child(2) {
+  transform: scaleX(1);
+  transition: .8s;
+}
+
+.hamburguer_Icon span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  transition: .8s;
+}
+
+/* Seleciona o ícone */
+.label input:checked:checked + .hamburguer_Icon > span:nth-child(1) {
+  top: 40%;
+  transform: rotate(-135deg);
+  transition: .8s;
+}
+.label input:checked:checked + .hamburguer_Icon > span:nth-child(2) {
+  transform: scaleX(0);
+  transition: .8s;
+}
+.label input:checked:checked + .hamburguer_Icon > span:nth-child(3) {
+  bottom: 50%;
+  transform: rotate(135deg);
+  transition: .8s;
+}
+
+/* Seleciona a div da lista */
+.div:has(.input:checked) .navBar{
+  top: 100%;
+  left: -105%;
+  height: 100px;
+  width: 100px;
+  color: rgb(191, 36, 49, 1);
+  transition: .8s;
+}
+
+/* Seleciona a div que envolve o ícone */
+/* .label input:checked + .hamburguer_Icon {
+  background-color: red;
+} */
