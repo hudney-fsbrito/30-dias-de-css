@@ -36,9 +36,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 24 - Título com hover efeito espelhado](#id24)
 * [Dia 25 - Tela de login](#id25)
 * [Dia 26 - Menu hambúrguer](#id26)
-<!-- * [Dia 27 - Fogos de artificio](#id27)
-* [Dia 28 - Slider de imagens](#id28)
-* [Dia 29 - Menu responsivo com Media Queries](#id29)
+* [Dia 27 - Menu responsivo com Media Queries](#id27)
+<!-- * [Dia 28 - Fogos de artificio](#id27)
+* [Dia 29 - Slider de imagens](#id28)
 * [Dia 30 - Tilt Effect](#id30)
 
  -->
@@ -474,3 +474,19 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * *[Pseudo-classes :has](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)*
 * *[Seletore + ](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)*
 * *[Seletore > ](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)*
+
+
+
+##  Desafio dia 27 - Menu responsível <a name="id27"></a>
+![dia 27](./src/Desafios/assets/Dia27.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia27)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7099028240022876160/)
+
+##### O que eu aprendi
+
+
+* *[Media Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/)*
