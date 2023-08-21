@@ -37,8 +37,8 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 25 - Tela de login](#id25)
 * [Dia 26 - Menu hambúrguer](#id26)
 * [Dia 27 - Menu responsivo com Media Queries](#id27)
-<!-- * [Dia 28 - Fogos de artificio](#id27)
-* [Dia 29 - Slider de imagens](#id28)
+* [Dia 28 - Fogos de artificio](#id27)
+<!-- * [Dia 29 - Slider de imagens](#id28)
 * [Dia 30 - Tilt Effect](#id30)
 
  -->
@@ -490,3 +490,21 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 
 * *[Media Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/)*
+
+
+
+##  Desafio dia 28 - Fogos de artifício <a name="id28"></a>
+![dia 28](./src/Desafios/assets/Dia28.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia28)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7099502992495656960/)
+
+##### O que eu aprendi
+
+
+* *:before*
+* *:nth-child()*
+* *transform*

@@ -27,9 +27,10 @@ import imageHomeDia24 from "../../assets/Dia24.gif"
 import imageHomeDia25 from "../../assets/Dia25.gif"
 import imageHomeDia26 from "../../assets/Dia26.gif"
 import imageHomeDia27 from "../../assets/Dia27.gif"
+import imageHomeDia28 from "../../assets/Dia28.gif"
 
 function Home() {
-  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17, imageHomeDia18, imageHomeDia19, imageHomeDia20, imageHomeDia21, imageHomeDia22, imageHomeDia23, imageHomeDia24, imageHomeDia25, imageHomeDia26, imageHomeDia27]
+  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17, imageHomeDia18, imageHomeDia19, imageHomeDia20, imageHomeDia21, imageHomeDia22, imageHomeDia23, imageHomeDia24, imageHomeDia25, imageHomeDia26, imageHomeDia27, imageHomeDia28]
 
   return (
 
