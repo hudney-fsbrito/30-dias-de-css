@@ -39,14 +39,19 @@ function Home() {
 
       <section className={styleHome.section}>
         <div className={styleHome.carousel}>
-          <button className={styleHome.btnL}>L</button>
-          <button className={styleHome.btnR}>R</button>
-          <div className={styleHome.inner}>
+          {/* <button className={styleHome.btnL}></button>
+          <button className={styleHome.btnR}></button> */}
+          <div className={styleHome.slides}>
+
+            {images.map((ipt, i) => (<input type="radio" name="slide" id={'slide' + (i + 1)}></input>))}
 
             {images.map((image, i) => (
-              <Link to={'/dia' + (i + 1)} target="_blank"><img className={styleHome.image} src={image} alt="Gif dos projetos do desafio"></img></Link>
-
+              <Link to={'/dia' + (i + 1)} target="_blank"><div className={styleHome.slide} id={'s' + (i + 1)}><img className={styleHome.slide} src={image} alt="Gif dos projetos do desafio"></img></div> </Link>
             ))}
+            <div className={styleHome.navegacao}>
+
+              {images.map((lab, i) => (<label for={'slide' + (i + 1)} ></label>))}
+            </div>
           </div>
         </div>
       </section>
