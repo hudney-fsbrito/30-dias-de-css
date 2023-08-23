@@ -28,9 +28,10 @@ import imageHomeDia25 from "../../assets/Dia25.gif"
 import imageHomeDia26 from "../../assets/Dia26.gif"
 import imageHomeDia27 from "../../assets/Dia27.gif"
 import imageHomeDia28 from "../../assets/Dia28.gif"
+import imageHomeDia29 from "../../assets/Dia29.gif"
 
 function Home() {
-  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17, imageHomeDia18, imageHomeDia19, imageHomeDia20, imageHomeDia21, imageHomeDia22, imageHomeDia23, imageHomeDia24, imageHomeDia25, imageHomeDia26, imageHomeDia27, imageHomeDia28]
+  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17, imageHomeDia18, imageHomeDia19, imageHomeDia20, imageHomeDia21, imageHomeDia22, imageHomeDia23, imageHomeDia24, imageHomeDia25, imageHomeDia26, imageHomeDia27, imageHomeDia28, imageHomeDia29]
 
   return (
 
@@ -43,15 +44,17 @@ function Home() {
           <button className={styleHome.btnR}></button> */}
           <div className={styleHome.slides}>
 
-            {images.map((ipt, i) => (<input type="radio" name="slide" id={'slide' + (i + 1)}></input>))}
+            {/* {images.map((ipt, i) => (<input checked type="radio" name="slide" id={'slide' + (i + 1)}></input>))} */}
 
             {images.map((image, i) => (
-              <Link to={'/dia' + (i + 1)} target="_blank"><div className={styleHome.slide} id={'s' + (i + 1)}><img className={styleHome.slide} src={image} alt="Gif dos projetos do desafio"></img></div> </Link>
+              <Link to={'/dia' + (i + 1)} target="_blank">
+                <div className={styleHome.imgSlide} id={'s' + (i + 1)}>
+                  <img src={image} alt="Gif dos projetos do desafio"></img>
+                </div> </Link>
             ))}
-            <div className={styleHome.navegacao}>
-
-              {images.map((lab, i) => (<label for={'slide' + (i + 1)} ></label>))}
-            </div>
+            {/* <div className={styleHome.navegacao}>
+              {images.map((lab, i) => (<label className={styleHome.bar} for={'slide' + (i + 1)} ></label>))}
+            </div> */}
           </div>
         </div>
       </section>
