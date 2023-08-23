@@ -39,9 +39,9 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 * [Dia 27 - Menu responsivo com Media Queries](#id27)
 * [Dia 28 - Fogos de artificio](#id27)
 * [Dia 29 - Slider de imagens](#id28)
-<!-- * [Dia 30 - Tilt Effect](#id30)
+* [Dia 30 - Tilt Effect](#id30)
 
- -->
+
 
 
 
@@ -524,4 +524,30 @@ Se gostou da ideia, dá uma olhada nesse repositório que tem mais detalhes 👉
 
 * *[pseudoclasse :has](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)*
 * *[Combinador geral de irmãos ~](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)*
+* *transform*
+
+
+
+##  Desafio dia 30 - Tilting Effect <a name="id30"></a>
+![dia 30](./src/Desafios/assets/Dia30.gif)
+
+
+
+[Meu codigo](https://github.com/hudney-fsbrito/30-dias-de-css/tree/master/src/Desafios/pages/Dia30)
+
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7100168087852752896/)
+
+##### O que eu aprendi
+
+
+* *[transform-style: preserve-3d;](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-style)*
+* *[ransform: translateZ();](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)*
+
+
+##### O que eu pratiquei
+
+
+* *[Combinador geral de irmãos ~](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)*
+* *flex-wrap: wrap;*
+* *:hover*
 * *transform*

@@ -1,0 +1,119 @@
+/* background-color: #F2EFBD 
+#26A682
+*/
+/* 
+background-color: #BF2431 
+background-color: #0D0D0D 
+background-color: #F2F2F2
+background-color: #733A19;
+background-color: #D9A05B;
+background-color: #F2F2F2;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@300;400;600;700;800;900&display=swap');
+
+
+.div {
+  height: 100vh;
+  background-color: #F2C894;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.tilt_wrap {
+  width: 30vw;
+  height: 45vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; /* Espalha o span  */
+  justify-content: center;
+  align-items: center;
+  color: #D9A05B;
+  
+  perspective: 1000px;
+
+  transition: all .3s linear;
+}
+
+.tilt_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(300deg, #733A19 30%, #D9A05B 100%);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .6s ease-out;
+  transform-style: preserve-3d; /* Coloca efeito 3D ao inclinar o card */
+}
+
+
+/* Efeito para o texto ficar distante do card */
+.tilt_box h1 {
+  transform: translateZ(100px);
+  font-family: 'Anton', sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+
+/* Espalhando os span's no card de forma uniforme */
+.tilt {
+  z-index: 1;
+  width: 33.33%;
+  height: 33.33%;
+  /* background-color: #F2C894; */
+
+}
+
+
+/* Efeito para o cartão de aproximar da tela */
+.tilt_wrap:hover {
+  transition: all .3s linear;
+  /* transform: scale(1.2); */
+  transform: translateZ(150px);
+}
+
+
+/* Efeito de inclinar. Ao passar o mouse no span o card inclina */
+.tilt:nth-child(1):hover ~ .tilt_box {
+  /* transform: rotate(20deg -20deg); */
+  transform: rotateX(20deg) rotateY(-20deg);
+}
+
+.tilt:nth-child(2):hover ~ .tilt_box {
+  transform: rotateX(20deg) rotateY(0deg);
+}
+
+.tilt:nth-child(3):hover ~ .tilt_box {
+  transform: rotateX(20deg) rotateY(20deg);
+}
+
+.tilt:nth-child(4):hover ~ .tilt_box {
+  transform: rotateX(0deg) rotateY(-20deg);
+}
+
+.tilt:nth-child(5):hover ~ .tilt_box {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+
+.tilt:nth-child(6):hover ~ .tilt_box {
+  transform: rotateX(0deg) rotateY(20deg);
+}
+
+.tilt:nth-child(7):hover ~ .tilt_box {
+  transform: rotateX(-20deg) rotateY(-20deg);
+}
+
+.tilt:nth-child(8):hover ~ .tilt_box {
+  transform: rotateX(-20deg) rotateY(0deg);
+}
+
+.tilt:nth-child(9):hover ~ .tilt_box {
+  transform: rotateX(-20deg) rotateY(20deg);
+}

@@ -29,6 +29,7 @@ import MenuBurg from "./Desafios/pages/Dia26";
 import MenuExpand from "./Desafios/pages/Dia27";
 import ExplodeFogos from "./Desafios/pages/Dia28";
 import Slide from "./Desafios/pages/Dia29";
+import Tilted from "./Desafios/pages/Dia30";
 
 function AppRoutes() {
 
@@ -66,6 +67,7 @@ function AppRoutes() {
         <Route path="/dia27" element={<MenuExpand></MenuExpand>}></Route>
         <Route path="/dia28" element={<ExplodeFogos></ExplodeFogos>}></Route>
         <Route path="/dia29" element={<Slide></Slide>}></Route>
+        <Route path="/dia30" element={<Tilted></Tilted>}></Route>
       </Routes>
     </BrowserRouter>
   )
