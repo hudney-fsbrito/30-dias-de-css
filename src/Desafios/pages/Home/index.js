@@ -1,5 +1,8 @@
+
+import { Swiper, SwiperSlide} from 'swiper/react'
 import { Link } from "react-router-dom";
-import styleHome from './Home.module.css'
+// import styleHome from './Home.module.css'
+import './Home.module.css'
 import imageHomeDia1 from "../../assets/Dia1.gif"
 import imageHomeDia2 from "../../assets/Dia2.gif"
 import imageHomeDia3 from "../../assets/Dia3.gif"
@@ -30,38 +33,74 @@ import imageHomeDia27 from "../../assets/Dia27.gif"
 import imageHomeDia28 from "../../assets/Dia28.gif"
 import imageHomeDia29 from "../../assets/Dia29.gif"
 import imageHomeDia30 from "../../assets/Dia30.gif"
+// import { useState } from "react";
+
 
 function Home() {
-  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17, imageHomeDia18, imageHomeDia19, imageHomeDia20, imageHomeDia21, imageHomeDia22, imageHomeDia23, imageHomeDia24, imageHomeDia25, imageHomeDia26, imageHomeDia27, imageHomeDia28, imageHomeDia29, imageHomeDia30] 
+  const images = [imageHomeDia1, imageHomeDia2, imageHomeDia3, imageHomeDia4, imageHomeDia5, imageHomeDia6, imageHomeDia7, imageHomeDia8, imageHomeDia9, imageHomeDia10, imageHomeDia11, imageHomeDia12, imageHomeDia13, imageHomeDia14, imageHomeDia15, imageHomeDia16, imageHomeDia17, imageHomeDia18, imageHomeDia19, imageHomeDia20, imageHomeDia21, imageHomeDia22, imageHomeDia23, imageHomeDia24, imageHomeDia25, imageHomeDia26, imageHomeDia27, imageHomeDia28, imageHomeDia29, imageHomeDia30]
+
+  // const [activ, setActiv] = useState("");
+  // // const [activRight, setActivRight] = useState("");
+
+  
+  // const clickSlideEsquerda = (activ) => {
+
+
+  //   setActiv("imgSlideEsquerda")
+
+  //   return activ
+  // }
+  // const clickSlideDireita = (activ) => {
+
+  //   setActiv("imgMovingDireita")
+    
+  //   return activ
+  // }
+
+  // const onclickLeft = () => { clickSlideEsquerda(activ) }
+  // const onclickRight = () => { clickSlideDireita(activ) }
+
+
 
   return (
 
     <header className="App-header">
       <h1>30 dias de CSS</h1>
 
-      <section className={styleHome.section}>
-        <div className={styleHome.carousel}>
-          {/* <button className={styleHome.btnL}></button>
-          <button className={styleHome.btnR}></button> */}
-          <div className={styleHome.slides}>
 
-            {/* {images.map((ipt, i) => (<input checked type="radio" name="slide" id={'slide' + (i + 1)}></input>))} */}
+
+      <section className="sectionSlade">
+
+
+        <div className="carousel">
+
+
+          <Swiper 
+          slidesPerView={1}
+          pagination={{clickable:true }}
+          navigation
+          className="slides">
+          
 
             {images.map((image, i) => (
-              <Link to={'/dia' + (i + 1)} target="_blank">
-                <div className={styleHome.imgSlide} id={'s' + (i + 1)}>
-                  <img src={image} alt="Gif dos projetos do desafio"></img>
-                </div> </Link>
+              <Link to={'/dia' + (i + 1)} target="_blank" key={images.i}>
+                <SwiperSlide className="imgSlide" id={'s' + (i + 1)} >
+                  <img
+                    className='slide-item'
+                    src={image}
+                    alt="Gif dos projetos do desafio"></img>
+                </SwiperSlide> </Link>
             ))}
-            {/* <div className={styleHome.navegacao}>
-              {images.map((lab, i) => (<label className={styleHome.bar} for={'slide' + (i + 1)} ></label>))}
-            </div> */}
-          </div>
+
+          </Swiper>
         </div>
+        {/* <div >
+          <button className="btnL" onClick={onclickLeft}>{"<"}</button>
+          <button className="btnR" onClick={onclickRight}>{">"}</button>
+
+        </div> */}
       </section>
 
-      {/* <Link to='/dia1' target="_blank"><img className={styleHome.image} src={imageDia1} alt="Animação de ícone em camadas"></img><button>Dia 1</button></Link>
-      <Link to='/dia2' target="_blank"><img className={styleHome.image} src={imageDia2} alt="Animação de ícone em camadas"></img><button>Dia 2</button></Link> */}
     </header >
 
   );

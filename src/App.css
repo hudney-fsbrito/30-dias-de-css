@@ -1,3 +1,7 @@
+/* :root{
+  --eAnimation: calc(100%  -100%);
+  --dAnimation: calc(100% + -100%);
+} */
 .App {
   text-align: center;
 }
@@ -20,4 +24,62 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* ///////// */
+
+
+.sectionSlade {
+
+  position: relative;
+  background-color: #505050;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+
+.carousel {
+  border-radius: 20px;
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  padding: 0%;
+  overflow: hidden;
+}
+
+.slides {
+  
+  height: 100%;
+
+}
+
+.slide-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+.btn {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnR {
+  position: relative;
+  margin-top: 10%;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btnL {
+  cursor: pointer;
+  position: relative;
+  margin-top: 10%;
+  padding: 10px;
+  background-color: red;
+
 }
